@@ -19,12 +19,9 @@ import (
 */
 
 func Chann(ch chan int, stopCh chan bool) {
-	var i int
-	i = 10
 	for j := 0; j < 10; j++ {
-		ch <- i
+		ch <- j
 		time.Sleep(time.Second)
-		fmt.Println(stopCh)
 	}
 	stopCh <- true
 }
@@ -37,19 +34,19 @@ func main() {
 
 	go Chann(ch, stopCh)
 
+	// select 公平case
 	for {
 		select {
 		case c = <-ch:
-			fmt.Println("Recvice", c)
-			fmt.Println("channel")
+			fmt.Println("Recviceccc", c)
 		case s := <-ch:
-			fmt.Println("Receive", s)
+			fmt.Println("Receivesss", s)
 		case _ = <-stopCh:
 			fmt.Println("Receive")
-			//goto end
+			goto end
 		case d := <-ch:
 			fmt.Println("Receiveddd", d)
 		}
 	}
-	//end:
+end:
 }

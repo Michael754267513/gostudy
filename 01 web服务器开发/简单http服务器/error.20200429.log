@@ -1,0 +1,24 @@
+2020-04-29 14:21:05.789 [ERRO] 500, "GET http 127.0.0.1:8199 /api.v2/error?token=123456 HTTP/1.1" 0.000, 127.0.0.1, "", "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0"
+Stack:
+1. GG
+   1).  main.main.func1.2.1
+    	C:/Users/hzeng/go/src/gostudy.git/01 web服务器开发/简单http服务器/请求输入.go:45
+   2).  main.MiddlewareErrorHandler
+    	C:/Users/hzeng/go/src/gostudy.git/01 web服务器开发/简单http服务器/请求输入.go:29
+   3).  main.MiddlewareAuth
+    	C:/Users/hzeng/go/src/gostudy.git/01 web服务器开发/简单http服务器/请求输入.go:14
+   4).  main.MiddlewareCORS
+    	C:/Users/hzeng/go/src/gostudy.git/01 web服务器开发/简单http服务器/请求输入.go:24
+
+2020-04-29 14:21:07.652 [ERRO] 500, "GET http 127.0.0.1:8199 /api.v2/error?token=123456 HTTP/1.1" 0.000, 127.0.0.1, "", "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0"
+Stack:
+1. GG
+   1).  main.main.func1.2.1
+    	C:/Users/hzeng/go/src/gostudy.git/01 web服务器开发/简单http服务器/请求输入.go:45
+   2).  main.MiddlewareErrorHandler
+    	C:/Users/hzeng/go/src/gostudy.git/01 web服务器开发/简单http服务器/请求输入.go:29
+   3).  main.MiddlewareAuth
+    	C:/Users/hzeng/go/src/gostudy.git/01 web服务器开发/简单http服务器/请求输入.go:14
+   4).  main.MiddlewareCORS
+    	C:/Users/hzeng/go/src/gostudy.git/01 web服务器开发/简单http服务器/请求输入.go:24
+

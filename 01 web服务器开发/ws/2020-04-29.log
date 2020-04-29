@@ -1,0 +1,14 @@
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD | ROUTE |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-------|-----------------|------------|
+  default | default | :8199   | ALL    | /ws   | main.main.func1 |             
+|---------|---------|---------|--------|-------|-----------------|------------|
+
+2020-04-29 14:27:02.745 17368: http server started listening on [:8199]
+
+  SERVER  | DOMAIN  | ADDRESS | METHOD | ROUTE |     HANDLER     | MIDDLEWARE  
+|---------|---------|---------|--------|-------|-----------------|------------|
+  default | default | :8199   | ALL    | /ws   | main.main.func1 |             
+|---------|---------|---------|--------|-------|-----------------|------------|
+
+2020-04-29 14:28:33.967 89700: http server started listening on [:8199]

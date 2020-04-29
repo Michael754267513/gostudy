@@ -1,4 +1,4 @@
-package main
+package demo
 
 import (
 	"github.com/gogf/gf/frame/g"

@@ -13,7 +13,7 @@ func main() {
 	fmt.Println(cap(a))
 	fmt.Println(a)
 	// 初始化空切片
-	b := make([]int, 3, 3)
+	b := make([]int, 4, 5)
 	b = append(b, 6) // 插入元素
 	b = append(b, 6, 7, 8, 9)
 	fmt.Println(b)
